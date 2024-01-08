@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+
 public class Autoclick : MonoBehaviour
 {
 
     public ScoreManager scoreManager;
     public int clickPower;
-    public float timeBetClick = 1;
+    public float timeBetClick = 1; 
 
     void Start()
     {
