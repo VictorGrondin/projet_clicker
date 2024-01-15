@@ -10,7 +10,7 @@ public class Autoclick : MonoBehaviour
     public int clickPower;
     public float timeBetClick = 1; 
 
-    void Start()
+    public void StartAutoclick()
     {
         StartCoroutine(AutoClicker());
     }
