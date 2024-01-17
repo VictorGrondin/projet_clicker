@@ -15,6 +15,12 @@ public class ScoreManager : MonoBehaviour
     {
         
     }
+    public void boutton_touch()
+    {
+        GetComponent<Animation>().Play("button_play");
+  
+    
+    }
 
     // Update is called once per frame
     void Update()

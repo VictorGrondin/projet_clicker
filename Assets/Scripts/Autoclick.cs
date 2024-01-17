@@ -13,6 +13,7 @@ public class Autoclick : MonoBehaviour
     public void StartAutoclick()
     {
         StartCoroutine(AutoClicker());
+
     }
     
     private IEnumerator AutoClicker()
