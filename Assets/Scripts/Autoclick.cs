@@ -14,6 +14,7 @@ public class Autoclick : MonoBehaviour
     {
         StartCoroutine(AutoClicker());
 
+
     }
     
     private IEnumerator AutoClicker()
